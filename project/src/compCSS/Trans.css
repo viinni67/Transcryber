@@ -1,0 +1,12 @@
+.container{
+    display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px) !important;
+}
+.text{
+    color: black !important;
+}
+#para{
+    color: black;
+}

@@ -1,0 +1,111 @@
+span{
+  color: white;
+}
+
+#body {
+    margin:1px 0 0 0;
+    padding-top: 1px;
+    overflow: hidden;
+  }
+  
+  .credit-roll {
+    position: relative;
+    bottom: 20;
+    
+    width: 100%;
+    height: 100%;
+    animation: roll 30s linear infinite; /* Adjust the duration as needed */
+  }
+  
+  .credits {
+    font-family: "Trebuchet MS", "Trebuchet MS", normal;
+    color: gold;
+    font-size: 50px;
+    line-height: 2;
+    text-align: center;
+    padding-top: 70vh;
+    transform: rotateX(20deg);
+    overflow-y: auto;
+  
+  }
+  
+     #about {
+    font-family: "Trebuchet MS", "Trebuchet MS", normal;
+    color: gold;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  @keyframes roll {
+
+    0% {
+      transform: translateY(100%);
+      
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #ko{
+    overflow: hidden;
+    margin:10% 0 0 0;
+    position: relative;
+
+}
+
+.wrapper{
+    display: flex;
+    height: 100%;
+    width:60%;
+    margin: 0 auto; 
+    perspective: 450px;
+
+}
+
+.scroll-text{
+  
+    color: gold;
+    font-size: 3vw;
+    font-family: "Trebuchet MS", "Trebuchet MS", normal;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-align: justify;
+    position: relative;
+    animation: scroll 100s linear forwards infinite;
+    /* transform:  rotateX(20deg); */
+
+
+
+
+
+
+/* #credits{
+    color: gold;
+    text-align: center;  
+}
+
+@keyframes scroll{
+    from{ top:0}
+    to{top:-7500px}
+
+
+} */ 

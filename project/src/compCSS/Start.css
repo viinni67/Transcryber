@@ -1,0 +1,66 @@
+.typing-effect {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 20px;
+    overflow: hidden; /* Hide overflow text */
+  }
+  
+  .typed-text {
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow text */
+    border-right: 1px solid transparent;
+    animation: typing 2s steps(40, end), blink-caret 0.55s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #000;
+    }
+  }
+  
+p{
+    color: white ;
+    font-size: 20px;
+ 
+}
+h1{
+
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#headline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+
+}
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+  }

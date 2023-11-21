@@ -1,0 +1,119 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("C:\Users\User\OneDrive\Desktop\WhatsApp Image 2023-11-15 at 5.33.33 PM.jpeg");
+    /* background-color:  rgba(2, 1, 19, 0.927); Replace 'your-color' with your desired background color */
+    overflow-x: hidden;
+    
+  }
+
+  
+h1{
+    font-family: "Trebuchet MS", "Trebuchet MS", normal;
+    color:#ffffff;
+    font-size:70px;
+    font-size: 75px;
+
+   
+}
+
+
+#box{
+    background-color:  #001f2ee2; /* Specify the desired background color for the margin */
+            padding: 10px 50px; /* Adjust the padding to control the margin width */
+            position: relative;
+            padding-bottom: 60px;
+            top: 100%;
+            bottom: 0%;
+            left: 0;
+            right: 0;
+            z-index: 1;
+
+}
+
+.shadow-textarea textarea.form-control::placeholder {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: 300;
+    color:rgb(0, 0, 0);
+}
+.shadow-textarea textarea.form-control {
+    background-color:rgba(255, 255, 255, 0.758);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: larger;
+    padding-left: 0.8rem;
+    border-color: #ae00ff;
+    color: rgb(0, 0, 0);
+}
+.shadow-textarea label{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #ae00ff;
+}
+
+button{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color:rgb(255, 255, 255);
+    background-color: #001f2e;
+   
+   
+}
+
+  
+nav{
+    z-index: 2;
+    top: 0;
+    
+  
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size:20px;
+
+}
+.custom-input {
+    width: 150px; /* Adjust the width as needed */
+  }
+
+.language-list {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top:100%;
+    width:100%;
+    left: 0;
+    border: 1px solid#001f2e;
+    background: #001f2e;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 150px; /* You can adjust the max height as needed */
+    overflow-y: auto;
+    z-index: 3;
+}
+#buttons{
+    font-size: 25px;
+}
+
+
+
+
+#input{
+    padding-bottom: 10px;
+}
+#submission{
+   margin-left: 15%;
+   position: right;
+}
+
+.button-container{
+    display: flex;
+  align-items: center;
+
+}
+.button-container button {
+    margin-right: 45%; /* Add spacing to the right of each button */
+}
+
+
+.button-container button:last-child {
+    margin-right: 0; /* Remove spacing from the last button */
+  }
